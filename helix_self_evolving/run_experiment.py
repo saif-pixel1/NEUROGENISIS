@@ -6,7 +6,7 @@ import pandas as pd
 def run():
     cells_df, adata = load_allen_data()
     X, y, stages = preprocess(cells_df, adata)
-    # Assume stages are ordered chronologically and we have 5 groups
+
     stage_names = sorted(set(stages))[:5]   # take first five
     stage_data = {s: (X[stages==s], y[stages==s]) for s in stage_names}
 
@@ -24,11 +24,10 @@ def run():
             model = NaiveStreamingModel()
             for s in stage_names:
                 X_train, y_train = stage_data[s]
-                model.partial_fit(X_train, y_train)   # updates on each stage
-                # Evaluate on same stage (for simplicity)
+                model.partial_fit(X_train, y_train) 
                 acc = np.mean(model.predict(X_train) == y_train)
                 results['naive'].append(acc)
-        else:  # helix
+        else:  
             model = HELIXModel()
             for s in stage_names:
                 X_train, y_train = stage_data[s]
