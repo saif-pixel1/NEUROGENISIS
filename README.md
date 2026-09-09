@@ -4,8 +4,15 @@
 
 Inspired by biological evolution and DNA, HELIX combines **concept drift detection, adaptive learning strategies, and replay memory** to continuously update a model as new environments arrive.
 
+## Article PDF:
+https://drive.google.com/file/d/1oBwJ6lTOW9uFBM9VoWvxu83eUOkZ3jxE/view?usp=sharing
+
+## Article Published on ZENODO:
+https://zenodo.org/records/22673483
+
 ## Dataset
 https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/index.html#expression_matrices/Developing-Mouse-Vis-Cortex-10X/20260131/
+
 Public URl:
 https://alleninstitute.github.io/abc_atlas_access/descriptions/Dev-Mouse-Vis-Cortex-10X.html
 
