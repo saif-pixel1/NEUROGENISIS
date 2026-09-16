@@ -5,7 +5,7 @@
 Inspired by biological evolution and DNA, HELIX combines **concept drift detection, adaptive learning strategies, and replay memory** to continuously update a model as new environments arrive.
 
 ## Article PDF:
-https://drive.google.com/file/d/1oBwJ6lTOW9uFBM9VoWvxu83eUOkZ3jxE/view?usp=sharing
+https://drive.google.com/file/d/1HwzF1TJ6c1parC4hRwZTypOTcaNXY47y/view?usp=sharing
 
 ## Article Published on ZENODO:
 https://zenodo.org/records/22802297
